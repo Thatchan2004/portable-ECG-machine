@@ -1,0 +1,7 @@
+ECG Sensor (AD8232)
+ADS1115 (Analog to Digital Converter)
+Raspberry Pi (or Microcontroller)
+Jumper Wires
+Breadboard
+Power Supply (3.3V or 5V)
+Electrodes
