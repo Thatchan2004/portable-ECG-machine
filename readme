@@ -1,0 +1,23 @@
+Real-Time ECG Signal Processing
+This project captures real-time ECG signals using the AD8232 ECG sensor and processes them using the ADS1115 ADC, which is interfaced with a Raspberry Pi (or microcontroller). The data is collected, filtered, and displayed on a live plot using Matplotlib and Python.
+
+Hardware Components:
+AD8232 ECG Sensor: Measures ECG signals.
+ADS1115 ADC: Converts analog ECG signals to digital.
+Raspberry Pi / Microcontroller: Controls the system and processes the data.
+Electrodes: Placed on the skin to capture ECG signals.
+Jumper Wires & Breadboard: For connections.
+Software:
+Python: Code to interface with the hardware, process ECG data, and plot the real-time waveform.
+Libraries: adafruit_ads1x15, numpy, matplotlib, scipy for signal processing.
+Features:
+Real-time Signal Capture: Captures ECG waveforms and visualizes them live.
+Noise Reduction: Uses a low-pass filter to clean up the signal.
+Customizable Parameters: Adjust sampling rate and filter settings for different applications.
+Setup:
+Connect the AD8232 sensor to the Raspberry Pi via the ADS1115.
+Run the provided Python code.
+View the ECG waveform in real-time.
+Requirements:
+Raspberry Pi or equivalent microcontroller.
+Python environment with required libraries installed.
